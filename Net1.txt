@@ -1,0 +1,88 @@
+### NETWORK DESIGN PROCESS ####
+
+class Block(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size=1, stride=1, padding=0):
+        super().__init__()
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding)
+        self.bn = nn.BatchNorm2d(out_channels)
+
+    def forward(self, x):
+        return F.relu(self.bn(self.conv(x)))
+
+
+class MultiStream(nn.Module):
+    """
+    Since it is self designed, no need to care that much for versatility, for now.
+    """
+    def __init__(self, in_channels, s1, s3, s4):
+        super().__init__()
+        self.stream1 = nn.Sequential(nn.AvgPool2d(3, 1, 1), Block(in_channels, s1))     # 1x1
+        self.stream2 = nn.Sequential(Block(in_channels, s3), Block(s3, s3, 3, 1, 1))    # 3x3
+        self.stream3 = nn.Sequential(Block(in_channels, s4), Block(s4, s4, 4, 2, 5))    # 4x4
+    
+    def forward(self, x):
+        return torch.cat([self.stream1(x), self.stream2(x), self.stream3(x)], 1)
+
+
+class CNN(nn.Module):
+    """
+    Inspired by GoogLeNet and VGG-16.
+    """
+    def __init__(self):
+        super().__init__()
+        self.conv1 = nn.Conv2d(3, 32, 3, 1, 1)
+        self.bn1 = nn.BatchNorm2d(32)
+        self.pool1 = nn.MaxPool2d(2, 2)  # 256 -> 128
+
+        self.conv2 = nn.Conv2d(32, 64, 3, 1, 1)
+        self.pool2 = nn.MaxPool2d(2, 2)  # 128 -> 64
+
+        self.conv3 = nn.Conv2d(64, 128, 3, 1, 1)
+        self.conv4 = nn.Conv2d(128, 256, 2, 2, 0)  # 64 -> 32
+        self.bn2 = nn.BatchNorm2d(256)
+        self.pool3 = nn.AvgPool2d(2, 2)  # 32 -> 16
+
+        self.conv5 = nn.Conv2d(256, 512, 3, 1, 1)
+        self.pool4 = nn.MaxPool2d(2, 2)  # 16 -> 8
+
+        self.str1 = MultiStream(512, 256, 192, 64)
+        self.pool5 = nn.MaxPool2d(2, 2)  # 8 -> 4
+
+        self.flat = nn.Flatten()
+
+        self.fc1 = nn.Linear(512*4*4, 512*4)
+        self.drop1 = nn.Dropout()
+
+        self.fc2 = nn.Linear(512*4, 512)
+        self.drop2 = nn.Dropout()
+
+        self.fc3 = nn.Linear(512, 91)
+
+
+    def forward(self, x):
+        x = F.relu(self.bn1(self.conv1(x)))
+        x = self.pool1(x)
+
+        x = F.relu(self.conv2(x))
+        x = self.pool2(x)
+
+        x = F.relu(self.conv3(x))
+        x = F.relu(self.bn2(self.conv4(x)))
+        x = self.pool3(x)
+
+        x = F.relu(self.conv5(x))
+        x = self.pool4(x)
+
+        x = self.str1(x)
+        x = self.pool5(x)
+
+        x = self.flat(x)
+
+        x = F.relu(self.fc1(x))
+        x = self.drop1(x)
+        
+        x = F.relu(self.fc2(x))
+        x = self.drop2(x)
+
+        x = self.fc3(x)
+        return x
