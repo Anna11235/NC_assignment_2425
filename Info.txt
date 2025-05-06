@@ -1,0 +1,3 @@
+Reached the 53.68% mark using:
+SGD with learning rate of 0.01 and momentum of 0.42, random seed 42, ResNet blcoks [3,4,6,3]
+Loss was Cross Entropy and scheduler was ReduceLROnPlateau patience 2
