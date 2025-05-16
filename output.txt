@@ -1,0 +1,627 @@
+Epoch 1 begin: 2025-05-16 16:46:15.933258.
+Batch 285, Loss: 4.434, Accuracy: 3.06%
+Batch 570, Loss: 4.287, Accuracy: 4.80%
+Batch 855, Loss: 4.190, Accuracy: 6.40%
+Batch 1140, Loss: 4.127, Accuracy: 6.96%
+Batch 1425, Loss: 4.081, Accuracy: 7.98%
+Completed training after 249.53 seconds.
+Testing loss: 4.034, accuracy: 7.99%
+Completed testing after 47.23 seconds.
+Total epoch time: 296.77 seconds.
+Epoch [1/50]
+Check-point!
+####################################################################################################
+Epoch 2 begin: 2025-05-16 16:51:13.500746.
+Batch 285, Loss: 3.999, Accuracy: 8.77%
+Batch 570, Loss: 3.936, Accuracy: 10.00%
+Batch 855, Loss: 3.896, Accuracy: 9.84%
+Batch 1140, Loss: 3.854, Accuracy: 11.04%
+Batch 1425, Loss: 3.822, Accuracy: 11.28%
+Completed training after 250.95 seconds.
+Testing loss: 4.066, accuracy: 9.65%
+Completed testing after 48.13 seconds.
+Total epoch time: 299.08 seconds.
+Epoch [2/50]
+Check-point!
+####################################################################################################
+Epoch 3 begin: 2025-05-16 16:56:13.312397.
+Batch 285, Loss: 3.710, Accuracy: 13.07%
+Batch 570, Loss: 3.676, Accuracy: 13.84%
+Batch 855, Loss: 3.663, Accuracy: 14.29%
+Batch 1140, Loss: 3.608, Accuracy: 15.15%
+Batch 1425, Loss: 3.570, Accuracy: 15.58%
+Completed training after 251.30 seconds.
+Testing loss: 3.491, accuracy: 16.68%
+Completed testing after 47.23 seconds.
+Total epoch time: 298.53 seconds.
+Epoch [3/50]
+Check-point!
+####################################################################################################
+Epoch 4 begin: 2025-05-16 17:01:12.576769.
+Batch 285, Loss: 3.457, Accuracy: 17.52%
+Batch 570, Loss: 3.442, Accuracy: 18.18%
+Batch 855, Loss: 3.415, Accuracy: 18.77%
+Batch 1140, Loss: 3.356, Accuracy: 20.05%
+Batch 1425, Loss: 3.354, Accuracy: 19.71%
+Completed training after 247.52 seconds.
+Testing loss: 3.366, accuracy: 20.40%
+Completed testing after 47.72 seconds.
+Total epoch time: 295.24 seconds.
+Epoch [4/50]
+Check-point!
+####################################################################################################
+Epoch 5 begin: 2025-05-16 17:06:08.554998.
+Batch 285, Loss: 3.262, Accuracy: 21.47%
+Batch 570, Loss: 3.236, Accuracy: 22.14%
+Batch 855, Loss: 3.192, Accuracy: 22.99%
+Batch 1140, Loss: 3.218, Accuracy: 22.43%
+Batch 1425, Loss: 3.124, Accuracy: 24.64%
+Completed training after 249.87 seconds.
+Testing loss: 3.025, accuracy: 25.89%
+Completed testing after 47.58 seconds.
+Total epoch time: 297.44 seconds.
+Epoch [5/50]
+Check-point!
+####################################################################################################
+Epoch 6 begin: 2025-05-16 17:11:06.733067.
+Batch 285, Loss: 3.066, Accuracy: 25.64%
+Batch 570, Loss: 3.048, Accuracy: 25.09%
+Batch 855, Loss: 3.043, Accuracy: 25.82%
+Batch 1140, Loss: 2.995, Accuracy: 27.00%
+Batch 1425, Loss: 2.977, Accuracy: 27.58%
+Completed training after 247.07 seconds.
+Testing loss: 2.858, accuracy: 29.74%
+Completed testing after 47.74 seconds.
+Total epoch time: 294.82 seconds.
+Epoch [6/50]
+Check-point!
+####################################################################################################
+Epoch 7 begin: 2025-05-16 17:16:02.285063.
+Batch 285, Loss: 2.837, Accuracy: 30.23%
+Batch 570, Loss: 2.877, Accuracy: 29.42%
+Batch 855, Loss: 2.876, Accuracy: 29.36%
+Batch 1140, Loss: 2.890, Accuracy: 29.19%
+Batch 1425, Loss: 2.847, Accuracy: 29.98%
+Completed training after 248.87 seconds.
+Testing loss: 3.207, accuracy: 24.85%
+Completed testing after 47.20 seconds.
+Total epoch time: 296.08 seconds.
+Epoch [7/50]
+####################################################################################################
+Epoch 8 begin: 2025-05-16 17:20:58.360136.
+Batch 285, Loss: 2.721, Accuracy: 32.51%
+Batch 570, Loss: 2.717, Accuracy: 32.40%
+Batch 855, Loss: 2.695, Accuracy: 33.03%
+Batch 1140, Loss: 2.700, Accuracy: 32.79%
+Batch 1425, Loss: 2.723, Accuracy: 32.71%
+Completed training after 248.99 seconds.
+Testing loss: 2.630, accuracy: 34.96%
+Completed testing after 47.38 seconds.
+Total epoch time: 296.37 seconds.
+Epoch [8/50]
+Check-point!
+####################################################################################################
+Epoch 9 begin: 2025-05-16 17:25:55.464082.
+Batch 285, Loss: 2.564, Accuracy: 36.15%
+Batch 570, Loss: 2.556, Accuracy: 36.02%
+Batch 855, Loss: 2.558, Accuracy: 35.89%
+Batch 1140, Loss: 2.573, Accuracy: 36.07%
+Batch 1425, Loss: 2.559, Accuracy: 36.10%
+Completed training after 250.27 seconds.
+Testing loss: 2.620, accuracy: 35.00%
+Completed testing after 48.22 seconds.
+Total epoch time: 298.49 seconds.
+Epoch [9/50]
+Check-point!
+####################################################################################################
+Epoch 10 begin: 2025-05-16 17:30:54.690692.
+Batch 285, Loss: 2.412, Accuracy: 38.68%
+Batch 570, Loss: 2.447, Accuracy: 38.87%
+Batch 855, Loss: 2.418, Accuracy: 38.61%
+Batch 1140, Loss: 2.440, Accuracy: 37.74%
+Batch 1425, Loss: 2.404, Accuracy: 39.36%
+Completed training after 247.83 seconds.
+Testing loss: 2.445, accuracy: 38.56%
+Completed testing after 47.61 seconds.
+Total epoch time: 295.45 seconds.
+Epoch [10/50]
+Check-point!
+####################################################################################################
+Epoch 11 begin: 2025-05-16 17:35:50.879861.
+Batch 285, Loss: 2.288, Accuracy: 41.86%
+Batch 570, Loss: 2.292, Accuracy: 41.25%
+Batch 855, Loss: 2.292, Accuracy: 42.00%
+Batch 1140, Loss: 2.292, Accuracy: 41.71%
+Batch 1425, Loss: 2.302, Accuracy: 41.81%
+Completed training after 247.11 seconds.
+Testing loss: 2.405, accuracy: 41.04%
+Completed testing after 47.24 seconds.
+Total epoch time: 294.35 seconds.
+Epoch [11/50]
+Check-point!
+####################################################################################################
+Epoch 12 begin: 2025-05-16 17:40:45.964596.
+Batch 285, Loss: 2.171, Accuracy: 43.85%
+Batch 570, Loss: 2.169, Accuracy: 44.97%
+Batch 855, Loss: 2.157, Accuracy: 44.55%
+Batch 1140, Loss: 2.203, Accuracy: 43.42%
+Batch 1425, Loss: 2.158, Accuracy: 44.80%
+Completed training after 247.70 seconds.
+Testing loss: 2.447, accuracy: 39.46%
+Completed testing after 47.78 seconds.
+Total epoch time: 295.48 seconds.
+Epoch [12/50]
+####################################################################################################
+Epoch 13 begin: 2025-05-16 17:45:41.443475.
+Batch 285, Loss: 2.040, Accuracy: 47.47%
+Batch 570, Loss: 2.025, Accuracy: 47.93%
+Batch 855, Loss: 2.064, Accuracy: 47.45%
+Batch 1140, Loss: 2.078, Accuracy: 46.36%
+Batch 1425, Loss: 2.087, Accuracy: 46.66%
+Completed training after 247.16 seconds.
+Testing loss: 2.381, accuracy: 42.01%
+Completed testing after 47.40 seconds.
+Total epoch time: 294.56 seconds.
+Epoch [13/50]
+Check-point!
+####################################################################################################
+Epoch 14 begin: 2025-05-16 17:50:36.739701.
+Batch 285, Loss: 1.910, Accuracy: 50.60%
+Batch 570, Loss: 1.968, Accuracy: 48.95%
+Batch 855, Loss: 1.956, Accuracy: 49.52%
+Batch 1140, Loss: 1.957, Accuracy: 49.32%
+Batch 1425, Loss: 1.988, Accuracy: 48.88%
+Completed training after 247.33 seconds.
+Testing loss: 2.190, accuracy: 45.24%
+Completed testing after 47.30 seconds.
+Total epoch time: 294.63 seconds.
+Epoch [14/50]
+Check-point!
+####################################################################################################
+Epoch 15 begin: 2025-05-16 17:55:32.103609.
+Batch 285, Loss: 1.802, Accuracy: 52.93%
+Batch 570, Loss: 1.835, Accuracy: 52.38%
+Batch 855, Loss: 1.860, Accuracy: 51.72%
+Batch 1140, Loss: 1.873, Accuracy: 51.14%
+Batch 1425, Loss: 1.855, Accuracy: 51.82%
+Completed training after 247.30 seconds.
+Testing loss: 2.089, accuracy: 47.27%
+Completed testing after 47.34 seconds.
+Total epoch time: 294.64 seconds.
+Epoch [15/50]
+Check-point!
+####################################################################################################
+Epoch 16 begin: 2025-05-16 18:00:27.483410.
+Batch 285, Loss: 1.686, Accuracy: 56.27%
+Batch 570, Loss: 1.730, Accuracy: 54.77%
+Batch 855, Loss: 1.745, Accuracy: 54.18%
+Batch 1140, Loss: 1.745, Accuracy: 54.13%
+Batch 1425, Loss: 1.790, Accuracy: 52.43%
+Completed training after 247.21 seconds.
+Testing loss: 2.258, accuracy: 44.90%
+Completed testing after 47.20 seconds.
+Total epoch time: 294.42 seconds.
+Epoch [16/50]
+####################################################################################################
+Epoch 17 begin: 2025-05-16 18:05:21.899279.
+Batch 285, Loss: 1.598, Accuracy: 57.32%
+Batch 570, Loss: 1.626, Accuracy: 57.15%
+Batch 855, Loss: 1.657, Accuracy: 55.78%
+Batch 1140, Loss: 1.693, Accuracy: 55.23%
+Batch 1425, Loss: 1.731, Accuracy: 54.45%
+Completed training after 247.20 seconds.
+Testing loss: 2.069, accuracy: 49.33%
+Completed testing after 47.22 seconds.
+Total epoch time: 294.41 seconds.
+Epoch [17/50]
+Check-point!
+####################################################################################################
+Epoch 18 begin: 2025-05-16 18:10:17.045771.
+Batch 285, Loss: 1.526, Accuracy: 59.43%
+Batch 570, Loss: 1.545, Accuracy: 59.21%
+Batch 855, Loss: 1.579, Accuracy: 58.56%
+Batch 1140, Loss: 1.573, Accuracy: 58.00%
+Batch 1425, Loss: 1.631, Accuracy: 56.98%
+Completed training after 247.24 seconds.
+Testing loss: 2.080, accuracy: 49.16%
+Completed testing after 47.34 seconds.
+Total epoch time: 294.58 seconds.
+Epoch [18/50]
+####################################################################################################
+Epoch 19 begin: 2025-05-16 18:15:11.628921.
+Batch 285, Loss: 1.423, Accuracy: 62.18%
+Batch 570, Loss: 1.484, Accuracy: 60.67%
+Batch 855, Loss: 1.503, Accuracy: 59.81%
+Batch 1140, Loss: 1.496, Accuracy: 59.17%
+Batch 1425, Loss: 1.527, Accuracy: 59.42%
+Completed training after 247.31 seconds.
+Testing loss: 2.011, accuracy: 50.94%
+Completed testing after 47.28 seconds.
+Total epoch time: 294.58 seconds.
+Epoch [19/50]
+Check-point!
+####################################################################################################
+Epoch 20 begin: 2025-05-16 18:20:06.945649.
+Batch 285, Loss: 1.341, Accuracy: 64.34%
+Batch 570, Loss: 1.402, Accuracy: 62.15%
+Batch 855, Loss: 1.418, Accuracy: 61.83%
+Batch 1140, Loss: 1.406, Accuracy: 62.64%
+Batch 1425, Loss: 1.453, Accuracy: 60.80%
+Completed training after 247.19 seconds.
+Testing loss: 2.167, accuracy: 47.82%
+Completed testing after 47.25 seconds.
+Total epoch time: 294.43 seconds.
+Epoch [20/50]
+####################################################################################################
+Epoch 21 begin: 2025-05-16 18:25:01.380499.
+Batch 285, Loss: 1.255, Accuracy: 66.45%
+Batch 570, Loss: 1.291, Accuracy: 65.08%
+Batch 855, Loss: 1.337, Accuracy: 64.35%
+Batch 1140, Loss: 1.379, Accuracy: 62.59%
+Batch 1425, Loss: 1.367, Accuracy: 63.73%
+Completed training after 247.38 seconds.
+Testing loss: 2.188, accuracy: 48.84%
+Completed testing after 47.21 seconds.
+Total epoch time: 294.60 seconds.
+Epoch [21/50]
+####################################################################################################
+Epoch 22 begin: 2025-05-16 18:29:55.976394.
+Batch 285, Loss: 1.169, Accuracy: 68.42%
+Batch 570, Loss: 1.246, Accuracy: 66.49%
+Batch 855, Loss: 1.275, Accuracy: 65.39%
+Batch 1140, Loss: 1.251, Accuracy: 65.89%
+Batch 1425, Loss: 1.285, Accuracy: 64.82%
+Completed training after 247.31 seconds.
+Testing loss: 2.009, accuracy: 51.57%
+Completed testing after 47.14 seconds.
+Total epoch time: 294.45 seconds.
+Epoch [22/50]
+Check-point!
+####################################################################################################
+Epoch 23 begin: 2025-05-16 18:34:51.169076.
+Batch 285, Loss: 1.125, Accuracy: 69.68%
+Batch 570, Loss: 1.132, Accuracy: 69.23%
+Batch 855, Loss: 1.167, Accuracy: 68.19%
+Batch 1140, Loss: 1.229, Accuracy: 67.12%
+Batch 1425, Loss: 1.239, Accuracy: 66.32%
+Completed training after 247.11 seconds.
+Testing loss: 2.132, accuracy: 49.52%
+Completed testing after 47.17 seconds.
+Total epoch time: 294.29 seconds.
+Epoch [23/50]
+####################################################################################################
+Epoch 24 begin: 2025-05-16 18:39:45.454399.
+Batch 285, Loss: 1.053, Accuracy: 71.25%
+Batch 570, Loss: 1.076, Accuracy: 70.64%
+Batch 855, Loss: 1.127, Accuracy: 69.43%
+Batch 1140, Loss: 1.139, Accuracy: 69.57%
+Batch 1425, Loss: 1.143, Accuracy: 68.34%
+Completed training after 247.33 seconds.
+Testing loss: 2.149, accuracy: 51.03%
+Completed testing after 47.15 seconds.
+Total epoch time: 294.48 seconds.
+Epoch [24/50]
+####################################################################################################
+Epoch 25 begin: 2025-05-16 18:44:39.938900.
+Batch 285, Loss: 0.978, Accuracy: 72.97%
+Batch 570, Loss: 1.019, Accuracy: 72.45%
+Batch 855, Loss: 1.037, Accuracy: 72.16%
+Batch 1140, Loss: 1.076, Accuracy: 70.37%
+Batch 1425, Loss: 1.090, Accuracy: 70.38%
+Completed training after 247.03 seconds.
+Testing loss: 2.073, accuracy: 52.74%
+Completed testing after 47.43 seconds.
+Total epoch time: 294.46 seconds.
+Epoch [25/50]
+Check-point!
+####################################################################################################
+Epoch 26 begin: 2025-05-16 18:49:35.128374.
+Batch 285, Loss: 0.938, Accuracy: 74.32%
+Batch 570, Loss: 0.978, Accuracy: 73.66%
+Batch 855, Loss: 0.988, Accuracy: 72.62%
+Batch 1140, Loss: 1.047, Accuracy: 71.62%
+Batch 1425, Loss: 1.041, Accuracy: 71.64%
+Completed training after 247.28 seconds.
+Testing loss: 2.172, accuracy: 51.86%
+Completed testing after 47.47 seconds.
+Total epoch time: 294.75 seconds.
+Epoch [26/50]
+####################################################################################################
+Epoch 27 begin: 2025-05-16 18:54:29.878172.
+Batch 285, Loss: 0.896, Accuracy: 75.48%
+Batch 570, Loss: 0.904, Accuracy: 75.41%
+Batch 855, Loss: 0.950, Accuracy: 73.66%
+Batch 1140, Loss: 0.978, Accuracy: 73.63%
+Batch 1425, Loss: 0.963, Accuracy: 73.21%
+Completed training after 246.99 seconds.
+Testing loss: 2.284, accuracy: 50.35%
+Completed testing after 47.20 seconds.
+Total epoch time: 294.20 seconds.
+Epoch [27/50]
+####################################################################################################
+Epoch 28 begin: 2025-05-16 18:59:24.076160.
+Batch 285, Loss: 0.697, Accuracy: 81.56%
+Batch 570, Loss: 0.613, Accuracy: 83.74%
+Batch 855, Loss: 0.589, Accuracy: 84.20%
+Batch 1140, Loss: 0.607, Accuracy: 84.24%
+Batch 1425, Loss: 0.580, Accuracy: 84.99%
+Completed training after 247.13 seconds.
+Testing loss: 1.952, accuracy: 57.23%
+Completed testing after 47.31 seconds.
+Total epoch time: 294.44 seconds.
+Epoch [28/50]
+Check-point!
+####################################################################################################
+Epoch 29 begin: 2025-05-16 19:04:19.248588.
+Batch 285, Loss: 0.561, Accuracy: 85.29%
+Batch 570, Loss: 0.546, Accuracy: 85.48%
+Batch 855, Loss: 0.544, Accuracy: 85.26%
+Batch 1140, Loss: 0.543, Accuracy: 85.70%
+Batch 1425, Loss: 0.522, Accuracy: 86.52%
+Completed training after 248.01 seconds.
+Testing loss: 1.976, accuracy: 57.37%
+Completed testing after 47.21 seconds.
+Total epoch time: 295.22 seconds.
+Epoch [29/50]
+Check-point!
+####################################################################################################
+Epoch 30 begin: 2025-05-16 19:09:15.208107.
+Batch 285, Loss: 0.512, Accuracy: 87.07%
+Batch 570, Loss: 0.515, Accuracy: 86.64%
+Batch 855, Loss: 0.526, Accuracy: 86.55%
+Batch 1140, Loss: 0.514, Accuracy: 86.83%
+Batch 1425, Loss: 0.519, Accuracy: 86.59%
+Completed training after 247.65 seconds.
+Testing loss: 1.939, accuracy: 57.74%
+Completed testing after 47.19 seconds.
+Total epoch time: 294.84 seconds.
+Epoch [30/50]
+Check-point!
+####################################################################################################
+Epoch 31 begin: 2025-05-16 19:14:10.785172.
+Batch 285, Loss: 0.488, Accuracy: 87.28%
+Batch 570, Loss: 0.493, Accuracy: 87.21%
+Batch 855, Loss: 0.489, Accuracy: 87.20%
+Batch 1140, Loss: 0.492, Accuracy: 87.18%
+Batch 1425, Loss: 0.495, Accuracy: 87.27%
+Completed training after 247.48 seconds.
+Testing loss: 1.966, accuracy: 57.64%
+Completed testing after 47.13 seconds.
+Total epoch time: 294.61 seconds.
+Epoch [31/50]
+####################################################################################################
+Epoch 32 begin: 2025-05-16 19:19:05.399361.
+Batch 285, Loss: 0.511, Accuracy: 86.81%
+Batch 570, Loss: 0.484, Accuracy: 87.39%
+Batch 855, Loss: 0.495, Accuracy: 87.28%
+Batch 1140, Loss: 0.482, Accuracy: 87.43%
+Batch 1425, Loss: 0.468, Accuracy: 87.92%
+Completed training after 247.46 seconds.
+Testing loss: 1.974, accuracy: 57.88%
+Completed testing after 47.20 seconds.
+Total epoch time: 294.66 seconds.
+Epoch [32/50]
+Check-point!
+####################################################################################################
+Epoch 33 begin: 2025-05-16 19:24:00.797408.
+Batch 285, Loss: 0.471, Accuracy: 87.42%
+Batch 570, Loss: 0.487, Accuracy: 87.05%
+Batch 855, Loss: 0.495, Accuracy: 87.80%
+Batch 1140, Loss: 0.458, Accuracy: 88.09%
+Batch 1425, Loss: 0.473, Accuracy: 88.00%
+Completed training after 247.32 seconds.
+Testing loss: 1.967, accuracy: 57.76%
+Completed testing after 47.22 seconds.
+Total epoch time: 294.54 seconds.
+Epoch [33/50]
+####################################################################################################
+Epoch 34 begin: 2025-05-16 19:28:55.337242.
+Batch 285, Loss: 0.447, Accuracy: 88.44%
+Batch 570, Loss: 0.461, Accuracy: 88.18%
+Batch 855, Loss: 0.486, Accuracy: 87.24%
+Batch 1140, Loss: 0.452, Accuracy: 88.41%
+Batch 1425, Loss: 0.471, Accuracy: 87.71%
+Completed training after 247.40 seconds.
+Testing loss: 1.980, accuracy: 57.73%
+Completed testing after 47.26 seconds.
+Total epoch time: 294.66 seconds.
+Epoch [34/50]
+####################################################################################################
+Epoch 35 begin: 2025-05-16 19:33:49.996467.
+Batch 285, Loss: 0.447, Accuracy: 88.06%
+Batch 570, Loss: 0.461, Accuracy: 88.12%
+Batch 855, Loss: 0.456, Accuracy: 88.48%
+Batch 1140, Loss: 0.467, Accuracy: 87.92%
+Batch 1425, Loss: 0.438, Accuracy: 88.59%
+Completed training after 247.33 seconds.
+Testing loss: 2.009, accuracy: 58.02%
+Completed testing after 47.32 seconds.
+Total epoch time: 294.65 seconds.
+Epoch [35/50]
+Check-point!
+####################################################################################################
+Epoch 36 begin: 2025-05-16 19:38:45.382719.
+Batch 285, Loss: 0.424, Accuracy: 89.13%
+Batch 570, Loss: 0.442, Accuracy: 88.96%
+Batch 855, Loss: 0.425, Accuracy: 89.29%
+Batch 1140, Loss: 0.412, Accuracy: 89.27%
+Batch 1425, Loss: 0.439, Accuracy: 88.67%
+Completed training after 247.72 seconds.
+Testing loss: 1.980, accuracy: 58.23%
+Completed testing after 47.18 seconds.
+Total epoch time: 294.90 seconds.
+Epoch [36/50]
+Check-point!
+####################################################################################################
+Epoch 37 begin: 2025-05-16 19:43:41.021246.
+Batch 285, Loss: 0.436, Accuracy: 88.29%
+Batch 570, Loss: 0.436, Accuracy: 88.80%
+Batch 855, Loss: 0.426, Accuracy: 89.41%
+Batch 1140, Loss: 0.427, Accuracy: 89.06%
+Batch 1425, Loss: 0.428, Accuracy: 89.23%
+Completed training after 247.10 seconds.
+Testing loss: 1.980, accuracy: 58.08%
+Completed testing after 47.58 seconds.
+Total epoch time: 294.67 seconds.
+Epoch [37/50]
+####################################################################################################
+Epoch 38 begin: 2025-05-16 19:48:35.695735.
+Batch 285, Loss: 0.417, Accuracy: 89.10%
+Batch 570, Loss: 0.434, Accuracy: 89.18%
+Batch 855, Loss: 0.415, Accuracy: 89.41%
+Batch 1140, Loss: 0.435, Accuracy: 88.71%
+Batch 1425, Loss: 0.421, Accuracy: 89.35%
+Completed training after 248.61 seconds.
+Testing loss: 1.988, accuracy: 58.16%
+Completed testing after 47.43 seconds.
+Total epoch time: 296.04 seconds.
+Epoch [38/50]
+####################################################################################################
+Epoch 39 begin: 2025-05-16 19:53:31.739519.
+Batch 285, Loss: 0.435, Accuracy: 88.91%
+Batch 570, Loss: 0.411, Accuracy: 89.69%
+Batch 855, Loss: 0.423, Accuracy: 89.12%
+Batch 1140, Loss: 0.443, Accuracy: 88.88%
+Batch 1425, Loss: 0.433, Accuracy: 89.28%
+Completed training after 247.73 seconds.
+Testing loss: 1.983, accuracy: 58.25%
+Completed testing after 47.37 seconds.
+Total epoch time: 295.10 seconds.
+Epoch [39/50]
+Check-point!
+####################################################################################################
+Epoch 40 begin: 2025-05-16 19:58:27.576244.
+Batch 285, Loss: 0.435, Accuracy: 88.82%
+Batch 570, Loss: 0.421, Accuracy: 89.09%
+Batch 855, Loss: 0.418, Accuracy: 89.45%
+Batch 1140, Loss: 0.406, Accuracy: 89.84%
+Batch 1425, Loss: 0.429, Accuracy: 89.07%
+Completed training after 251.60 seconds.
+Testing loss: 1.972, accuracy: 58.37%
+Completed testing after 47.61 seconds.
+Total epoch time: 299.21 seconds.
+Epoch [40/50]
+Check-point!
+####################################################################################################
+Epoch 41 begin: 2025-05-16 20:03:27.520440.
+Batch 285, Loss: 0.421, Accuracy: 89.39%
+Batch 570, Loss: 0.417, Accuracy: 89.09%
+Batch 855, Loss: 0.419, Accuracy: 89.27%
+Batch 1140, Loss: 0.434, Accuracy: 88.87%
+Batch 1425, Loss: 0.433, Accuracy: 88.72%
+Completed training after 252.21 seconds.
+Testing loss: 1.972, accuracy: 58.24%
+Completed testing after 48.22 seconds.
+Total epoch time: 300.43 seconds.
+Epoch [41/50]
+####################################################################################################
+Epoch 42 begin: 2025-05-16 20:08:27.953611.
+Batch 285, Loss: 0.420, Accuracy: 88.97%
+Batch 570, Loss: 0.416, Accuracy: 89.38%
+Batch 855, Loss: 0.441, Accuracy: 89.02%
+Batch 1140, Loss: 0.410, Accuracy: 89.51%
+Batch 1425, Loss: 0.455, Accuracy: 88.15%
+Completed training after 249.03 seconds.
+Testing loss: 1.989, accuracy: 58.36%
+Completed testing after 47.28 seconds.
+Total epoch time: 296.31 seconds.
+Epoch [42/50]
+####################################################################################################
+Epoch 43 begin: 2025-05-16 20:13:24.265742.
+Batch 285, Loss: 0.435, Accuracy: 88.73%
+Batch 570, Loss: 0.417, Accuracy: 89.40%
+Batch 855, Loss: 0.421, Accuracy: 89.51%
+Batch 1140, Loss: 0.417, Accuracy: 89.52%
+Batch 1425, Loss: 0.432, Accuracy: 88.88%
+Completed training after 247.43 seconds.
+Testing loss: 1.989, accuracy: 58.30%
+Completed testing after 47.37 seconds.
+Total epoch time: 294.80 seconds.
+Epoch [43/50]
+####################################################################################################
+Epoch 44 begin: 2025-05-16 20:18:19.062385.
+Batch 285, Loss: 0.455, Accuracy: 88.30%
+Batch 570, Loss: 0.427, Accuracy: 89.06%
+Batch 855, Loss: 0.436, Accuracy: 88.83%
+Batch 1140, Loss: 0.421, Accuracy: 89.44%
+Batch 1425, Loss: 0.441, Accuracy: 88.74%
+Completed training after 247.87 seconds.
+Testing loss: 1.968, accuracy: 58.33%
+Completed testing after 47.42 seconds.
+Total epoch time: 295.29 seconds.
+Epoch [44/50]
+####################################################################################################
+Epoch 45 begin: 2025-05-16 20:23:14.353646.
+Batch 285, Loss: 0.431, Accuracy: 88.78%
+Batch 570, Loss: 0.441, Accuracy: 88.70%
+Batch 855, Loss: 0.444, Accuracy: 88.77%
+Batch 1140, Loss: 0.414, Accuracy: 89.40%
+Batch 1425, Loss: 0.413, Accuracy: 89.33%
+Completed training after 247.37 seconds.
+Testing loss: 1.982, accuracy: 58.41%
+Completed testing after 47.30 seconds.
+Total epoch time: 294.67 seconds.
+Epoch [45/50]
+Check-point!
+####################################################################################################
+Epoch 46 begin: 2025-05-16 20:28:09.755742.
+Batch 285, Loss: 0.430, Accuracy: 89.06%
+Batch 570, Loss: 0.427, Accuracy: 88.73%
+Batch 855, Loss: 0.424, Accuracy: 89.19%
+Batch 1140, Loss: 0.418, Accuracy: 89.05%
+Batch 1425, Loss: 0.416, Accuracy: 89.41%
+Completed training after 247.28 seconds.
+Testing loss: 1.977, accuracy: 58.35%
+Completed testing after 47.16 seconds.
+Total epoch time: 294.43 seconds.
+Epoch [46/50]
+####################################################################################################
+Epoch 47 begin: 2025-05-16 20:33:04.189911.
+Batch 285, Loss: 0.431, Accuracy: 88.66%
+Batch 570, Loss: 0.443, Accuracy: 88.59%
+Batch 855, Loss: 0.422, Accuracy: 89.25%
+Batch 1140, Loss: 0.405, Accuracy: 89.53%
+Batch 1425, Loss: 0.411, Accuracy: 89.74%
+Completed training after 247.86 seconds.
+Testing loss: 1.984, accuracy: 58.28%
+Completed testing after 47.23 seconds.
+Total epoch time: 295.09 seconds.
+Epoch [47/50]
+####################################################################################################
+Epoch 48 begin: 2025-05-16 20:37:59.276026.
+Batch 285, Loss: 0.410, Accuracy: 89.50%
+Batch 570, Loss: 0.420, Accuracy: 88.95%
+Batch 855, Loss: 0.449, Accuracy: 88.66%
+Batch 1140, Loss: 0.435, Accuracy: 89.42%
+Batch 1425, Loss: 0.445, Accuracy: 88.84%
+Completed training after 247.44 seconds.
+Testing loss: 1.978, accuracy: 58.38%
+Completed testing after 47.15 seconds.
+Total epoch time: 294.59 seconds.
+Epoch [48/50]
+####################################################################################################
+Epoch 49 begin: 2025-05-16 20:42:53.867969.
+Batch 285, Loss: 0.431, Accuracy: 88.75%
+Batch 570, Loss: 0.407, Accuracy: 89.53%
+Batch 855, Loss: 0.420, Accuracy: 89.23%
+Batch 1140, Loss: 0.420, Accuracy: 89.40%
+Batch 1425, Loss: 0.406, Accuracy: 89.53%
+Completed training after 249.80 seconds.
+Testing loss: 1.981, accuracy: 58.11%
+Completed testing after 47.54 seconds.
+Total epoch time: 297.34 seconds.
+Epoch [49/50]
+####################################################################################################
+Epoch 50 begin: 2025-05-16 20:47:51.207355.
+Batch 285, Loss: 0.448, Accuracy: 88.33%
+Batch 570, Loss: 0.437, Accuracy: 88.84%
+Batch 855, Loss: 0.422, Accuracy: 89.16%
+Batch 1140, Loss: 0.446, Accuracy: 88.40%
+Batch 1425, Loss: 0.443, Accuracy: 88.94%
+Completed training after 248.44 seconds.
+Testing loss: 1.980, accuracy: 58.26%
+Completed testing after 47.33 seconds.
+Total epoch time: 295.78 seconds.
+Epoch [50/50]
+####################################################################################################
+
