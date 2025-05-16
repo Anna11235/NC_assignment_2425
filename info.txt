@@ -1,0 +1,18 @@
+13,
+ 32,
+ 0.01,
+ 0.8,
+ CrossEntropyLoss(),
+ SGD (
+ Parameter Group 0
+     dampening: 0
+     differentiable: False
+     foreach: None
+     fused: None
+     lr: 1.0000000000000002e-07
+     maximize: False
+     momentum: 0.8
+     nesterov: False
+     weight_decay: 0
+ ),
+ <torch.optim.lr_scheduler.ReduceLROnPlateau at 0x7d8770165ab0>)
